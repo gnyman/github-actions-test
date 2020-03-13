@@ -12,3 +12,6 @@ jobs:
         pwd
         echo ${GOPATH}
         echo ${GOROOT}
+    - name: gorun
+      run: |
+        go run main.go
